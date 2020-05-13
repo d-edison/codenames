@@ -20,5 +20,5 @@ WORKDIR /app
 COPY --from=backend /app/main .
 COPY --from=frontend /app/frontend/dist ./frontend/dist
 COPY assets assets
-EXPOSE 9091/tcp
+EXPOSE 80/tcp
 CMD /app/main

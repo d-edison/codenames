@@ -15,7 +15,7 @@ import (
 	"github.com/jbowens/codenames"
 )
 
-const listenAddr = ":9091"
+const listenAddr = ":80"
 const expiryDur = -24 * time.Hour
 
 func main() {
