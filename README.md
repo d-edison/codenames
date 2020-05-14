@@ -45,11 +45,7 @@ docker build . -t codenames:latest
 The following command will launch the docker image:
 
 ```
-docker run --name codenames_server --rm -p 80:80 -d codenames
+docker run -p 80:80 codenames
 ```
 
-The following command will kill the docker instance:
-
-```
-docker stop codenames_server
-```
+Stop the container with `^C`
